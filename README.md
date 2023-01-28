@@ -4,7 +4,7 @@
 
 
 <h2> Descrição do Projeto: </h2>
-Projeto possui os conceitos fundamentais de um site, onde pela primeira vez fiz a validação de formulários e os dados de cadastro foram armazenados no localStorage
+Projeto responsivo que possui os conceitos fundamentais de um site, onde pela primeira vez fiz a validação de formulários e os dados de cadastro foram armazenados no localStorage
 para que assim pudesse ser feito o login dentro da mesma aplicação, tudo isso desenvolvido em JavaScript puro. 
 
 <h2> Tecnologias utilizadas: </h2>

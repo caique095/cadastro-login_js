@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/base.css">
+    <link rel="stylesheet" href="./CSS/main-login.css">
+    <link rel="stylesheet" href="./CSS/left-login.css">
+    <link rel="stylesheet" href="./CSS/right-login.css">
+    <link rel="stylesheet" href="./CSS/login.css">
+    <link rel="shortcut icon" href="./IMG/favicon.svg" />
+    <title>Login.</title>
+</head>
+<body>
+  
+    <section class="main-login">
+        <article class="left-login">
+            <img src="IMG/login-animate.svg" class="left-login-image" alt="imagem de cadastro">
+        </article>
+
+        <article class="right-login">
+            <form class="form" id="form">
+                <div class="form-text">
+                    <h1 class="form-title">Bem vindo!</h1>
+                    <span class="form-text"> Entre com sua conta.</span>
+                </div>
+
+                <div class="form-control">
+                    <input class="input" type="email" id="email" placeholder="seunome@email.com">
+                    <small class="error" id="textEmail"></small>
+                </div>
+
+                <div class="form-control">
+                    <input class="input" type="password" id="password" placeholder="Senha">
+                        <div class="form-btn-password"> 
+                            <box-icon class="btn-password" name='show-alt' color='#b9b9b9' id="form-icons_show"></box-icon>
+                            <box-icon class="btn-password" name='low-vision' color='#b9b9b9' id="form-icons_hidden"></box-icon>
+                        </div>
+
+                        <small class="error" id="textPassword"></small>
+                </div>
+
+                <button class="btn" id="btn">Entrar</button>
+
+                <small class="error" id="textForm"></small>
+
+                <div class="login">
+                    <span class="signUp-title">Ainda não tem acesso? </span> <a href="index.html">Clique aqui!</a>
+                </div>
+            </form>
+        </article>
+    </section>
+
+    <script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script>
+    <script src="JS/login.js"></script>
+
+</body>
+</html>

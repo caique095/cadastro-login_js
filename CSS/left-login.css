@@ -1,0 +1,46 @@
+.left-login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--cinza-medio);
+}
+
+.left-login > h1 {
+    color: var(--cor-secundaria);
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.left-login > p {
+    color: var(--branco);
+    font-size: 1.3rem;
+}
+
+.left-login-image{
+    width: 33vw;
+    margin: 1rem 0;
+}
+
+@media only screen and (max-width: 600px) {
+    .main-login{
+        flex-direction: column;
+    }
+
+    .left-login-image{
+        width: 55vw;
+    }
+
+    .left-login{
+        background-color: var(--bg-color);
+    }
+
+}
+
+@media only screen and (max-width: 300px) {
+    .left-login-image{
+        width: 80vw;
+    }
+}

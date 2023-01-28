@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="./CSS/base.css">
+    <link rel="stylesheet" href="./CSS/main-login.css">
+    <link rel="stylesheet" href="./CSS/left-login.css">
+    <link rel="stylesheet" href="./CSS/right-login.css">
+    <link rel="shortcut icon" href="./IMG/favicon.svg" />
+</head>
+<body>
+    
+    <section class="main-login">
+        <article class="left-login">
+                <img src="IMG/login-animate.svg" class="left-login-image" alt="imagem de cadastro">
+        </article>
+        
+        <article class="right-login">
+                <form class="form" id="form">
+
+                    <h1 class="form-title">Cadastro:</h1>
+                    <p class="form-text">curta essa experiência incrível.</p>
+        
+                    <div class="form-control">
+                        <input class="input" type="text" id="name" placeholder="Nome completo">
+                        <small class="error" id="textName"></small>
+                    </div>
+        
+                    <div class="form-control">
+                        <input class="input" type="email" id="email" placeholder="seunome@email.com">
+                        <small class="error" id="textEmail"></small>
+                    </div>
+        
+                    <div class="form-control">
+                        <input class="input" type="password" id="password" placeholder="Senha">
+                            <div class="form-btn-password"> 
+                                <box-icon class="btn-password" name='show-alt' color='#b9b9b9' id="form-icons_show"></box-icon>
+                                <box-icon class="btn-password" name='low-vision' color='#b9b9b9' id="form-icons_hidden"></box-icon>
+                            </div>
+
+                            <small class="error" id="textPassword"></small>
+                    </div>
+                        
+                    <div class="form-control">
+                        <input class="input" type="password" id="password-confirm" placeholder="Confirme sua senha">
+                            
+                            <div class="form-btn-password">
+                                <box-icon class="btn-password" name='show-alt' color='#b9b9b9' id="form-icons_show-confirm"></box-icon>
+                                <box-icon class="btn-password" name='low-vision' color='#b9b9b9' id="form-icons_hidden-confirm"></box-icon>
+                            </div>
+
+                            <small class="error" id="textConfirm_password"></small>
+                    </div>
+
+                    <small class="error" id="textName"></small>
+
+                        <span class="agree-text">Ao clicar em cadastrar você concorda com os Termos de serviço e <a href="privacidade.html">politica de privacidade</a>.</span>
+            
+                        <button class="btn" id="btn">Criar conta</button>
+            
+                        <small class="error" id="textForm"></small>
+
+                        <div class="login">
+                            <p>Já possui uma conta?</p> <a href="login.html">Entre aqui!</p>
+                        </div>
+
+                
+                </form>
+            
+        </article>
+    </section>
+    
+    <script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script>
+    <script src="JS/cadastro.js"></script>
+    <script src="JS/localStorage.js"></script>
+
+
+</body>
+</html>

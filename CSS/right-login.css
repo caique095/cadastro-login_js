@@ -1,0 +1,130 @@
+.right-login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-title{
+    background: -webkit-linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    font-size: 3rem;
+
+    width: 18rem;
+    margin: .5rem 0;
+}
+
+.form-text{
+    width: 18rem;
+    margin-top: -1rem;
+}
+
+.form {
+    width: 36rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 1.9rem 2.2rem; 
+    background-color: var(--cinza-escuro);
+    border-radius: .9rem;
+    box-shadow: 0px 10px 20px #00000056;
+    color: var(--branco);
+}
+
+.form-control{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+}
+
+.form-control > input {
+    width: 20rem;
+    margin: .7rem 0;
+    border: none;
+    border-radius: .4rem;
+    padding: 1.1rem;
+    background-color: var(--branco);
+    box-shadow: 0px 10px 20px #00000056;
+    outline: none;
+}
+
+.form-btn-password{
+    position: relative;
+}
+
+.btn-password{
+    position: absolute;
+    margin: -3rem 18rem;
+}
+
+.error{
+    color: var(--error);
+}
+
+.agree-text{
+    text-align: center;
+    font-size: .7rem;
+    width: 18rem;
+    margin: .7rem 0;
+}
+
+.agree-text > a, .login > a{
+    color: var(--cor-secundaria);
+}
+
+.agree-text > a:hover, .login > a {
+    color: var(--cor-secundaria-hover);
+}
+
+.btn{
+    width: 20rem;
+    border:none;
+    padding: 1rem;
+    border-radius: .4rem;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: .5rem;
+    cursor: pointer;
+    letter-spacing: 0.02rem;
+    box-shadow: 0px 10px 20px -12px #000000;
+    background-color: #08AEEA;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    color: var(--branco);
+}
+
+.btn:hover{
+    transform:scale(1.1);
+    transition: all .5s;
+}
+
+.login{
+    display: flex;
+}
+
+@media only screen and (max-width: 950px) {
+    .form{
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .form{
+        background: none;
+        box-shadow: none;
+        margin-top: -5rem;
+    }
+
+    .form-titulo{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+}
+
+

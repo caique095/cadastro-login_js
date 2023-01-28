@@ -1,0 +1,19 @@
+.right-login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.btn{
+    margin: 1.2rem 0;
+}
+
+.form-text{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: .5rem;
+}
+
+.error{
+    margin-bottom: 1rem;
+}

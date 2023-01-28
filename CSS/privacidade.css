@@ -1,0 +1,14 @@
+.privacy-tittle{
+    color: var(--cor-secundaria);
+    font-size: 1.2rem;
+}
+
+.privacy-text{
+    margin: 2rem;
+    font-size: .8rem;
+    text-align: justify;
+}
+
+.hifen{
+    color: var(--cor-secundaria);
+}

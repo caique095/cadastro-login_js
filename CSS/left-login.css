@@ -20,7 +20,7 @@
 }
 
 .left-login-image{
-    width: 33vw;
+    width: 35vw;
     margin: 1rem 0;
 }
 
@@ -29,18 +29,12 @@
         flex-direction: column;
     }
 
-    .left-login-image{
-        width: 55vw;
+    .left-login{
+        display: none;
     }
 
     .left-login{
-        background-color: var(--bg-color);
+        background-color: var(--bg-color);;
     }
 
-}
-
-@media only screen and (max-width: 300px) {
-    .left-login-image{
-        width: 80vw;
-    }
 }
